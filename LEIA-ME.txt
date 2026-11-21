@@ -1,0 +1,29 @@
+PLAYGAMES — projeto inicial Android
+
+O que já existe:
+- Aplicativo Android em Kotlin + Jetpack Compose.
+- Tela inicial com catálogo visual.
+- Navegação básica entre catálogo e páginas dos jogos.
+- Tema escuro com detalhes vermelhos.
+- Workflow do GitHub Actions para compilar um APK na nuvem.
+
+Importante:
+- Esta é uma base visual inicial. Xadrez, Damas, Ludo e Sinuca ainda não são partidas funcionais.
+- Login/autenticação ainda não foi implementado.
+- O APK ainda precisa ser compilado pelo GitHub Actions.
+
+COMO GERAR O APK PELO CELULAR:
+1. Crie uma conta no GitHub, se ainda não tiver.
+2. Crie um repositório novo chamado PLAYGAMES.
+3. Envie todos os arquivos e pastas deste ZIP para o repositório, mantendo a estrutura.
+4. Abra a aba Actions do repositório.
+5. Se solicitado, habilite GitHub Actions.
+6. Abra "Build PLAYGAMES APK" e toque em "Run workflow".
+7. Quando terminar com sucesso, abra a execução e baixe o artefato "PLAYGAMES-debug-apk".
+8. Extraia o ZIP baixado para encontrar app-debug.apk.
+
+Requisitos de compilação:
+- Java 17
+- Gradle 8.9
+- Android Gradle Plugin 8.7.3
+- Android SDK 35
